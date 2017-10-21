@@ -1,0 +1,14 @@
+{
+  "name": "bootcamp-d1",
+  "version": "1.0.0",
+  "description": "Our node learning app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Troy Miles",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
