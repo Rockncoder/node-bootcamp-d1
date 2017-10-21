@@ -8,7 +8,10 @@ console.log(numbers);
 
 // MAP
 // iterates over all of the elements and returns a new array with the same number of elements
-const times2 = numbers.map(element => element * 2);
+const times2 = numbers.map((element, index, arr) => {
+  console.log(`el=${element} ndx=${index}, array=${arr}`);
+  return element * 2
+});
 console.log(times2);
 
 // FILTER
@@ -24,5 +27,12 @@ let letters3 = letters.reduceRight((previous, current) => previous + current);â€
 console.log(letters3);
 
 // create a map function to divide by 2
+const div2 = numbers.map((element) => element / 2);
+console.log(div2);
+
+
+
 // create a filter which displays the odd numbers
+const oddOnly = numbers.filter(element => (element % 2));
+console.log(oddOnly);
 

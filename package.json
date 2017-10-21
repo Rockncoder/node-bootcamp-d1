@@ -2,13 +2,20 @@
   "name": "bootcamp-d1",
   "version": "1.0.0",
   "description": "Our node learning app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "npm test"
   },
   "author": "Troy Miles",
   "license": "MIT",
+  "repository": "https://github.com/Rockncoder/node-bootcamp-d1",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.3",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5"
   }
 }
