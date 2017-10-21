@@ -42,7 +42,7 @@ app.delete('/', (request, response) => {
   response.end(`DELETED at ${Date.now()}`);
 });
 
-const port = 8080;
+const port = process.env.PORT || '8080';
 
 app.listen(port, () => {
   console.log(`Our app is running ${port}`) ;
