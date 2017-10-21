@@ -10,6 +10,10 @@
   "author": "Troy Miles",
   "license": "MIT",
   "repository": "https://github.com/Rockncoder/node-bootcamp-d1",
+  "engines": {
+    "node": "v8.6.0",
+    "npm": "5.3.0"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
